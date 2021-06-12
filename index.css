@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+} /* * is called as the universal selector, it applies margin:0 to all the elements */
+
+.navbar {
+  display: flex; /* defines a flex container where all the div/ elements will align in single row. Default direction is row. */
+  align-items: center; /* Center the alignments for all the items of the flex container: (here, vertically) */
+  justify-content: center; /* Items are positioned in the center of the container (here, horizontally) */
+  background: black; /* background color */
+  padding: 10px 80px; /* padding : top and bottom 10px, right and left 80px. px is the basic unit of CSS. */
+}
+
+.nav-list {
+  width: 70%; /* makes width 70% of the parent element */
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin: 10px; /* margin of 10px on all the sides */
+  width: 120px;
+}
+
+.nav-list li {
+  list-style: none; /* removes bulleted dots in list */
+  padding: 35px; /* padding of 35px on all the sides */
+}
+
+.nav-list li a {
+  text-decoration: none; /* removes underline in the links */
+  color: white; /* color of font */
+}
+
+#search {
+  padding: 10px;
+  font-size: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 500px;
+  border: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid white; /* solid white border of 1px */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgrey;
+  cursor: pointer; /* changes the cursor to pointer when hovered*/
+}
+
+#firstsection {
+  background-color: lightgray;
+  height: 400px;
+}
+
+#secondsection {
+  background-color: grey;
+  height: 400px;
+}
+
+.container {
+  padding: 100px;
+}
+
+.text-big {
+  font-weight: bold; /* sets thickness of font */
+  font-size: 50px;
+}
+
+.text-small {
+  font-size: 25px;
+}
+
+#blog {
+  height: 400px;
+  background-color: lightslategray;
+}
+
+footer {
+  background-color: black;
+}
+
+.text-footer {
+  text-align: center; /* Centers the text */
+  padding: 30px;
+  color: white;
+}
